@@ -4,14 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rewardful Test</title>
-    <!-- Load Rewardful SDK -->
-    <script async src="https://cdn.getrewardful.com/sdk/latest/rewardful.js"></script>
-    <script>
-        window.onload = function() {
-            Rewardful('38fa1e');  // Replace '38fa1e' with your actual public key
-            console.log("test");
-        };
-    </script>
+    <!-- Add Rewardful asynchronous API snippet -->
+    <script>(function(w,r){w._rwq=r;w[r]=w[r]||function(){(w[r].q=w[r].q||[]).push(arguments)}})(window,'rewardful');</script>
+    <!-- Load the Rewardful script with your API key -->
+    <script async src='https://r.wdfl.co/rw.js' data-rewardful='YOUR-API-KEY'></script>
 </head>
 <body>
     <h1>Welcome to My Test Page</h1>
