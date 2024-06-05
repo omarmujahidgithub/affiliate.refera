@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rewardful Test</title>
+    <!-- Load Rewardful SDK -->
     <script async src="https://cdn.getrewardful.com/sdk/latest/rewardful.js"></script>
     <script>
-        Rewardful('38fa1e');
+        window.onload = function() {
+            Rewardful('38fa1e');  // Replace '38fa1e' with your actual public key
+        };
     </script>
 </head>
 <body>
